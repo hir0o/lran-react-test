@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint --dir src",
     "test": "jest",
+    "test:ci": "jest --coverage --silent --ci ",
     "posttest": "npm run format",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
     "prepare": "husky install",
